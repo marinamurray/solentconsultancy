@@ -58,29 +58,8 @@ nav {
 }
 
 .nav-logo img {
-  height: 36px;
+  height: 40px;
   width: auto;
-}
-
-.nav-logo-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.1;
-}
-
-.nav-logo-text span:first-child {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1rem;
-  color: var(--navy);
-  letter-spacing: 0.02em;
-}
-
-.nav-logo-text span:last-child {
-  font-size: 0.6rem;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--teal);
 }
 
 .nav-links {
@@ -189,7 +168,7 @@ nav {
 
 .section-label {
   text-align: center;
-  font-family: var(--font-display);
+  font-family: var(--font-body);
   font-size: 1.7rem;
   font-weight: 700;
   color: var(--navy);
@@ -350,7 +329,7 @@ nav {
 }
 
 .services-group-title {
-  font-family: var(--font-display);
+  font-family: var(--font-body);
   font-size: 1.1rem;
   font-weight: 700;
   color: var(--navy);
@@ -411,7 +390,7 @@ nav {
 }
 
 .pricing-group-title {
-  font-family: var(--font-display);
+  font-family: var(--font-body);
   font-size: 1.05rem;
   font-weight: 700;
   color: var(--navy);
@@ -462,7 +441,7 @@ nav {
 }
 
 .marketing-card {
-  background: var(--mint-light);
+  background: var(--mint);
   border-radius: 8px;
   padding: 1.6rem 1.4rem;
 }
