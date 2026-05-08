@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Solent Consultancy</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo-text">
+        <span>SOLENT CONSULTANCY</span>
+        <span>Expand Your Horizons</span>
+      </a>
+      <button class="nav-toggle" aria-label="Menu" onclick="toggleNav()">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page">
+
+    <div class="page-header">
+      <h1>Get in Touch</h1>
+    </div>
+
+    <section class="contact-section">
+
+      <div class="contact-info">
+        <h2>We'd love to hear from you.</h2>
+        <p class="sub">Have a question? Get in touch — we'll get back to you within 24 hours.</p>
+        <div class="contact-detail">
+          <div class="contact-item">
+            <div class="label">Email</div>
+            <div class="value"><a href="mailto:info@solentconsultancy.com">info@solentconsultancy.com</a></div>
+          </div>
+          <div class="contact-item">
+            <div class="label">Phone</div>
+            <div class="value"><a href="tel:02080502775">020 8050 2775</a></div>
+          </div>
+          <div class="contact-item">
+            <div class="label">WhatsApp</div>
+            <div class="value"><a href="https://wa.me/447359721436">07359 721 436</a></div>
+          </div>
+          <div class="contact-item">
+            <div class="label">Website</div>
+            <div class="value"><a href="https://solentconsultancy.co.uk">solentconsultancy.co.uk</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h2>Send us a message</h2>
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Email address" required />
+          </div>
+          <div class="form-group">
+            <input type="tel" name="phone" placeholder="Phone (optional)" />
+          </div>
+          <div class="form-group">
+            <textarea name="message" placeholder="How can we help?" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send message</button>
+        </form>
+      </div>
+
+    </section>
+
+    <!-- SOFTWARE PARTNERS -->
+    <section class="partners">
+      <h2 class="section-label">Our Software Partners</h2>
+      <div class="section-rule"></div>
+      <p style="font-size:0.88rem;color:var(--grey-text);">We are official partners of leading cloud accounting platforms.</p>
+      <div class="partners-logos">
+        <img src="images/xero-logo.png" alt="Xero" />
+        <img src="images/freeagent-logo.png" alt="FreeAgent" />
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    Solent Consultancy Limited &nbsp;·&nbsp; Company No. 15283739 registered in England &amp; Wales<br>
+    71-75 Shelton Street, London, WC2H 9JQ &nbsp;·&nbsp;
+    <a href="mailto:info@solentconsultancy.com">info@solentconsultancy.com</a> &nbsp;·&nbsp;
+    <a href="https://solentconsultancy.co.uk">solentconsultancy.co.uk</a>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
