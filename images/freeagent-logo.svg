@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 44">
+  <rect x="0" y="4" width="36" height="36" rx="6" fill="#E8482C"/>
+  <text x="18" y="28" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">FA</text>
+  <text x="48" y="30" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#2C3E50">Free<tspan font-weight="300" fill="#7F8C8D">Agent</tspan></text>
+</svg>

@@ -537,10 +537,9 @@ nav {
 }
 
 .partners-logos img {
-  height: 44px;
+  height: 56px;
   width: auto;
-  opacity: 0.75;
-  filter: grayscale(20%);
+  opacity: 0.85;
   transition: opacity 0.2s;
 }
 
